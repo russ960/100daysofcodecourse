@@ -13,13 +13,14 @@ screen.listen()
 screen.bgcolor("white")
 screen.onkey(player.move_turtle,"Up")
 
+car = CarManager()
+
 game_is_on = True
 while game_is_on:
     screen.update()
-    # if player.ycor() > 260:
-    #     time.sleep(2)
-    #     player.update_level()
-    
-    screen.update()
-
+    car.car_move()
+    if player.ycor() == 280.0:
+        screen.update()
+        time.sleep(0.5)
+        player.update_level()
 screen.exitonclick()
