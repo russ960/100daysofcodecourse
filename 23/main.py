@@ -19,6 +19,7 @@ game_is_on = True
 while game_is_on:
     screen.update()
     car.car_move()
+        
     if player.ycor() == 280.0:
         screen.update()
         time.sleep(0.5)
