@@ -11,6 +11,7 @@ MOVE_INCREMENT = 10
 class CarManager():
     def __init__(self):
         self.cars = []
+        self.speed_multiplier = 1
         for _ in range(18):
             self.cars.append(self.create_car())
 
@@ -21,7 +22,7 @@ class CarManager():
         self.car.shapesize(stretch_wid=1,stretch_len=2)
         self.car.penup()
         self.car.setheading(180)
-        self.car.goto(randrange(300,1000,50),randrange(-240,240,20))
+        self.car.goto(randrange(250,1000,50),randrange(-240,240,25))
         return self.car
         
     def car_move(self):
@@ -31,6 +32,5 @@ class CarManager():
                 self.cars.append(self.create_car())
             else:
                 mycar.forward(STARTING_MOVE_DISTANCE)
-        print(len(self.cars))
-        time.sleep(.1)
+        time.sleep(.1*self.speed_multiplier)
 
