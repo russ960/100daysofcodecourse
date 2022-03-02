@@ -79,7 +79,7 @@ website_input.grid(row=1,column=1,columnspan=2)
 username_label = Label(text="Email/Username:",font=("Ariel", 10))
 username_label.grid(row=2,column=0)
 username_input = Entry(width=35)
-username_input.insert(0,"russ@johnsonville.net")
+username_input.insert(0,"russ@email.net")
 username_input.grid(row=2,column=1,columnspan=2)
 
 # Password input
