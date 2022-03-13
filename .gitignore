@@ -3,5 +3,5 @@ Lib
 Scripts
 pyvenv.cfg
 Include
-/32/creds.py
+**/creds.py
 **/__pycache__/
