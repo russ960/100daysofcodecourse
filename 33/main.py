@@ -4,10 +4,9 @@ import requests as rq
 
 def get_quote():
     req_response = rq.get('https://api.kanye.rest')
-    print(req_response.text)
-    #canvas.itemconfig('quote_text',text=req_response.text[])
-
-
+    req_response.raise_for_status()
+    quote = req_response.json()["quote"]
+    canvas.itemconfig(quote_text,text=quote)
 
 
 window = Tk()
