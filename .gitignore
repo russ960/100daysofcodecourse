@@ -1,0 +1,7 @@
+.vscode
+Lib
+Scripts
+pyvenv.cfg
+Include
+**/creds.py
+**/__pycache__/
