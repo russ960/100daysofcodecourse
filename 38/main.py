@@ -26,17 +26,18 @@ nutritionix_payload = {
 }
 nutritionix_api_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 response = requests.post(url=nutritionix_api_endpoint, headers=headers, json=nutritionix_payload).json()
-print(response["exercises"][0]["name"])
-
+#print(response["exercises"][0]["name"])
+print(response)
 sheety_api_write_endpoint = os.environ.get('SHEET_ENDPOINT')
 
 print(entry_date.strftime('%d/%m/%Y'))
 print(entry_date.strftime('%H:%M/%S'))
 sheety_token = os.environ.get('TOKEN')
-sheety_key_enc = base64.b64encode(sheety_token.encode()).decode()
+#sheety_key_enc = base64.b64encode(sheety_token.encode()).decode()
 sheety_headers = {
-    "Authorization": "Bearer " + sheety_key_enc
+    "Authorization": "Bearer " + creds.sheety_key
 }
+
 for exercise in response["exercises"]:
     sheety_payload = {
         "workout": {
