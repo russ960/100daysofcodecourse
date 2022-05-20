@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    margin: 50px auto 0 auto;
+    padding-top: 75px;
+    font-size: 5.62rem;
+    font-family: 'Koulen', cursive;
+    color: #6D8B74;
+    line-height: 2;
+}
+
+h2 {
+    color: #6D8B74;
+    font-weight: normal;
+}
+
+h3 {
+    color: #5F7161;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 8px;
+    width: 5%;
+    color: #5F7161;
+}
+
+a {
+    color: #5F7161;
+}
+
+.middle-container {
+    padding-top: 50px;
+}
+
+.profile {
+    padding-bottom: 50px;
+}
+
+.subtitle{
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #6D8B74;
+    margin: 0;
+}
+.top-container{
+    background-color:  #EFEAD8;
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 350px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+
+.skills {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.database {
+    float: left;
+    margin-right: 30px;
+}
+
+.cloud {
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #EFEAD8;
+    font-size: 20px;
+    background: #5F7161;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #EFEAD8;
+    color:#5F7161;
+    text-decoration: none;
+  }
+
+  .bottom-container {
+    background-color:  #EFEAD8;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-family: 'Koulen', cursive;
+  }
+
+  .footer-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: .7rem;
+  }
+
+  .contact-me {
+      padding-top: 50px;
+  }
