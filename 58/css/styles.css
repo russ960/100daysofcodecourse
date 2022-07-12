@@ -21,6 +21,7 @@ p {
     background-color: #ff4c68;
     color: #fff;
     padding: 3% 15%;
+    position: relative;
 }
 
 .container-fluid{
@@ -37,6 +38,9 @@ p {
 .rotate {
     transform:rotate(25deg);
     width: 60%;
+    left: 30%;
+    top: 10%;
+    position: relative;
 }
 
 /* Navigation Bar */
@@ -85,6 +89,9 @@ p {
 
 #features {
     padding: 7% 15%;
+    background-color: #ffff;
+    position:relative;
+    margin-top: -15%;
 
 }
 
@@ -124,4 +131,34 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color:#fff;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.download-button-cta {
+    margin-top: 2%;
+}
+
+#footer {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.social {
+    margin-right: 10px;
+}
+
+@media (max-width:1028px) {
+    .rotate{
+        position: static;
+        transform:rotate(0deg);
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
 }
