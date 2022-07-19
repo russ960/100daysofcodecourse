@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    {% extends "bootstrap/base.html" %}
+    {% import "bootstrap/wtf.html" as wtf %}
     <title>{% block title %}{% endblock %}</title>
     <style>
         {% block styling %}
