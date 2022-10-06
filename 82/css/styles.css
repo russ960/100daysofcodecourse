@@ -1,0 +1,51 @@
+a:visited { color: #FFFFFF; }
+a:link { color: #FFFFFF;}
+#projects-list a:hover { text-decoration: none!important;
+    color: #FFDE00;}
+
+i {
+    margin: 20px
+}
+
+#contact a:link .fa-brands, #contact a:visited .fa-brands  {
+    color: #FFFFFF;
+}
+
+#sticky-sidebar {
+    background-color: #D2001A;
+}
+
+#showcase {
+    background-color: #FFFAE7;
+}
+
+#contact {
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+}
+
+#projects-list {
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+#projects-list h4 {
+    margin-bottom: 25px;
+    
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: 'Silkscreen', cursive;
+    color:#D2001A
+} 
+
+#showcase i {
+    margin-left: 75px;
+    color: #FFDE00;
+} 
+
+#showcase a:link .fa-brands, #showcase a:visited .fa-brands  {
+    color: #FFDE00;
+}

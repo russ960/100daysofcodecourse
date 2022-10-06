@@ -1,0 +1,39 @@
+body {
+    background-color: #FFFAE7;
+    color: #000000;
+    font-size: 14px;
+  }
+  #content {
+    float: right;
+    padding-left: 5%;
+    width: 70%;
+    height: 100%;
+    background-color: #FFFAE7;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida  Typewriter', monospace;
+  }
+  #navbar {
+    position: fixed;
+    float: left;
+    margin-top: -8px;
+    margin-left: -8px;
+    padding-left: 1%;
+    text-align: center;
+    color:#FFFFFF;
+    background-color: #D2001A;
+    font-size:20px;
+    height: 100%;
+    width: 25%;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+  }
+  #footer {
+    position: fixed;
+    background-color: #FFDE00;
+    text-align: center;
+    color: #00FE52;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida   Typewriter', monospace;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+  }
